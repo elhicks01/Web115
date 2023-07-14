@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WEB-115 Final Project</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Perfectly Portioned Fitness</h1>
+    <h2>Build Your Meal Plan</h2>
+  </header>
+
+  <form id="mealPlanForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+    <br>
+  
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+    <br>
+  
+    <label for="goal">Goal for the Week:</label>
+    <input type="text" id="goal" required>
+    <br>
+  
+    <h3>Select Meals for Each Day:</h3>
+    <h4>Monday</h4>
+    <label for="mondayBreakfast">Monday Breakfast:</label>
+    <input type="text" id="mondayBreakfast" required>
+    <br>
+    <label for="mondaySnack">Monday Snack:</label>
+    <input type="text" id="mondaySnack" required>
+    <br>
+    <label for="mondayLunch">Monday Lunch:</label>
+    <input type="text" id="mondayLunch" required>
+    <br>
+    <label for="mondaySnack2">Monday Snack:</label>
+    <input type="text" id="mondaySnack2" required>
+    <br>
+    <label for="mondayDinner">Monday Dinner:</label>
+    <input type="text" id="mondayDinner" required>
+    <br>
+    <h4>Tuesday</h4>
+    <label for="tuesdayBreakfast">Tuesday Breakfast:</label>
+    <input type="text" id="tuesdayBreakfast" required>
+    <br>
+    <label for="tuesdaySnack">Tuesday Snack:</label>
+    <input type="text" id="tuesdaySnack" required>
+    <br>
+    <label for="tuesdayLunch">Tuesday Lunch:</label>
+    <input type="text" id="tuesdayLunch" required>
+    <br>
+    <label for="tuesdaySnack2">Tuesday Snack:</label>
+    <input type="text" id="tuesdaySnack2" required>
+    <br>
+    <label for="tuesdayDinner">Tuesday Dinner:</label>
+    <input type="text" id="tuesdayDinner" required>
+    <br>
+    <h4>Wednesday</h4>
+    <label for="wednesdayBreakfast">Wednesday Breakfast:</label>
+    <input type="text" id="wednesdayBreakfast" required>
+    <br>
+    <label for="wednesdaySnack">Wednesday Snack:</label>
+    <input type="text" id="wednesdaySnack" required>
+    <br>
+    <label for="wednesdayLunch">Wednesday Lunch:</label>
+    <input type="text" id="wednesdayLunch" required>
+    <br>
+    <label for="wednesdaySnack2">Wednesday Snack:</label>
+    <input type="text" id="wednesdaySnack2" required>
+    <br>
+    <label for="wednesdayDinner">Wednesday Dinner:</label>
+    <input type="text" id="wednesdayDinner" required>
+    <br>
+    <h4>Thursday</h4>
+    <label for="thursdayBreakfast">Thursday Breakfast:</label>
+    <input type="text" id="thursdayBreakfast" required>
+    <br>
+    <label for="thursdaySnack">Thursday Snack:</label>
+    <input type="text" id="thursdaySnack" required>
+    <br>
+    <label for="thursdayLunch">Thursday Lunch:</label>
+    <input type="text" id="thursdayLunch" required>
+    <br>
+    <label for="thursdaySnack2">Thursday Snack:</label>
+    <input type="text" id="thursdaySnack2" required>
+    <br>
+    <label for="thursdayDinner">Thursday Dinner:</label>
+    <input type="text" id="thursdayDinner" required>
+    <br>
+    <h4>Friday</h4>
+    <label for="fridayBreakfast">Friday Breakfast:</label>
+    <input type="text" id="fridayBreakfast" required>
+    <br>
+    <label for="fridaySnack">Friday Snack:</label>
+    <input type="text" id="fridaySnack" required>
+    <br>
+    <label for="fridayLunch">Friday Lunch:</label>
+    <input type="text" id="fridayLunch" required>
+    <br>
+    <label for="fridaySnack2">Friday Snack:</label>
+    <input type="text" id="fridaySnack2" required>
+    <br>
+    <label for="fridayDinner">Friday Dinner:</label>
+    <input type="text" id="fridayDinner" required>
+    <br>
+    <h4>Saturday</h4>
+    <label for="saturdayBreakfast">Saturday Breakfast:</label>
+    <input type="text" id="saturdayBreakfast" required>
+    <br>
+    <label for="saturdaySnack">Saturday Snack:</label>
+    <input type="text" id="saturdaySnack" required>
+    <br>
+    <label for="saturdayLunch">Saturday Lunch:</label>
+    <input type="text" id="saturdayLunch" required>
+    <br>
+    <label for="saturdaySnack2">Saturday Snack:</label>
+    <input type="text" id="saturdaySnack2" required>
+    <br>
+    <label for="saturdayDinner">Saturday Dinner:</label>
+    <input type="text" id="saturdayDinner" required>
+    <br>
+    <h4>Sunday</h4>
+    <label for="sundayBreakfast">Sunday Breakfast:</label>
+    <input type="text" id="sundayBreakfast" required>
+    <br>
+    <label for="sundaySnack">Sunday Snack:</label>
+    <input type="text" id="sundaySnack" required>
+    <br>
+    <label for="sundayLunch">Sunday Lunch:</label>
+    <input type="text" id="sundayLunch" required>
+    <br>
+    <label for="sundaySnack2">Sunday Snack:</label>
+    <input type="text" id="sundaySnack2" required>
+    <br>
+    <label for="sundayDinner">Sunday Dinner:</label>
+    <input type="text" id="sundayDinner" required>
+    <br>
+    <!-- Repeat the above structure for each day of the week -->
+  
+    <button type="button" onclick="generateMealPlan()">Generate Meal Plan</button>
+    <button type="button" onclick="clearForm()">Clear</button>
+  </form>  
+</body>
+</html>
